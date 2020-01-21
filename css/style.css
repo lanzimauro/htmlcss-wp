@@ -39,7 +39,6 @@ header {
 }
 
 aside  {
-    background-color: green;
     width: 25%;
     height: 100%;
     float: left;
@@ -87,4 +86,27 @@ footer  {
 .sottotitolo p {
     font-size: 15px;
     color: white;
+}
+
+.feed {
+    background-color: white;
+    border-radius: 3%;
+}
+
+i {
+    color: orange;
+    margin-left: 1px;
+}
+
+.titolofeed h1 {
+    color: brown;
+}
+
+.titolofeed p {
+    color: darkgreen;
+}
+
+.titolofeed p:hover {
+    color: lightgreen;
+    cursor: pointer;
 }
