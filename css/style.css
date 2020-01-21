@@ -61,7 +61,8 @@ main .content {
 
 footer  {
     height: 100px;
-    background-color: skyblue;
+    background-color: white;
+    position: relative;
 }
 
 .titolo {
@@ -123,4 +124,10 @@ i {
     border-radius: 2%;
     padding: 8px;
     margin: 5px;
+}
+
+
+footer i {
+
+    color: gray;
 }
